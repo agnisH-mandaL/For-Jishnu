@@ -9,10 +9,9 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('https://github.com/agnisH-mandaL/For-Jishnu/blob/main/Picsart_25-01-05_01-23-43-328.jpg?raw=true') no-repeat;
-    background-size: cover;
-    background-position: center;
-
+    background: url('Picsart_25-01-05_01-23-43-328.jpg') no-repeat;
+    background-size:cover;
+    background-color: center;
 }
 
 
@@ -47,6 +46,7 @@ header h2{
 .navbar label.active {
     border-color:black;
 }
+
 .theme{
     width: 30px;
     height: 30px;
@@ -114,4 +114,16 @@ header h2{
     box-shadow: black;
 
 }
-
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration:underline;
+}
