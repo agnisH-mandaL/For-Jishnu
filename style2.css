@@ -36,18 +36,17 @@ header h2{
 }
 
 }
-.navbar a{
-    font-size: 18px;
+.navbar label{
+    font-size: 25px;
     margin-left: 30px;
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: 0.5s;
 }
-.navbar a:hover,
-.navbar a.active {
-    border-color:blueviolet;
+.navbar label:hover,
+.navbar label.active {
+    border-color:black;
 }
-
 .theme{
     width: 30px;
     height: 30px;
@@ -115,16 +114,4 @@ header h2{
     box-shadow: black;
 
 }
-.wrapper .register-link{
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
-}
-.register-link p a{
-    color: blue;
-    text-decoration: none;
-    font-weight: 600;
-}
-.register-link p a:hover{
-    text-decoration:underline;
-}
+
