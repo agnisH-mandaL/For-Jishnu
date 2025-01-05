@@ -69,6 +69,7 @@ header h2{
 .wrapper h1{
     font-size: 36px;
     text-align: center;
+    color: whitesmoke;
 }
 .wrapper .input-box{
     width: 100%;
